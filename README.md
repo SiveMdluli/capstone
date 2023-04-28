@@ -11,7 +11,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [Portfolio Outline](#Portfolio-Outline)
+    - [🖥️Portfolio Outline](#Portfolio-Outline)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -46,9 +46,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Presentation of Portfolio -->
-## 🚀 Portfolio Outline <a name="Portfolio Outline"></a>
+## 🖥️ Portfolio Outline <a name="Portfolio-Outline"></a>
 
-- [Loom Presentation link](https://www.loom.com/share/)
+- [Loom Presentation link](https://www.loom.com/share/0237b386930347adbc7b9929cbc4b22f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
