@@ -156,4 +156,6 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
