@@ -10,6 +10,7 @@ header {
   flex-direction: column;
   justify-content: center;
 }
+
 .top-menu {
   display: flex;
   justify-content: flex-end;
@@ -20,9 +21,8 @@ header {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0;
   gap: 10px;
-  padding: 10px 170px 10px 0px;
+  padding: 10px 170px 10px 0;
 }
 
 .navbar {
@@ -32,6 +32,7 @@ header {
   background-color: #fff;
   box-shadow: 5px 10px 8px #d4d4d4;
 }
+
 .navbar img {
   margin-left: 15rem;
 }
@@ -53,6 +54,12 @@ header {
   color: #5c5a5a;
   margin: 0;
   font-size: 16px;
+}
+
+.see-the-whole-program p a {
+  text-decoration: underline;
+  color: #e9e9ea;
+  text-transform: uppercase;
 }
 
 .navbar ul li a:hover {
@@ -110,7 +117,6 @@ header {
   background-position: bottom;
   color: transparent;
   font-weight: 700;
-  /* color: #ec5242; */
   font-size: 60px;
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -132,14 +138,14 @@ header {
 }
 
 .header-content .summit-date {
-  color: #555555;
+  color: #555;
   font-weight: 800;
   font-size: 30px;
   padding-top: 1.5rem;
 }
 
 .header-content .summit-venue {
-  color: #555555;
+  color: #555;
   font-weight: 150;
   font-size: 20px;
   padding-top: 0.3rem;
@@ -172,6 +178,7 @@ header {
   border-style: solid;
   border-width: 2px;
   width: 25%;
+  margin-top: -0.25rem;
 }
 
 .programs-card-container {
@@ -207,12 +214,6 @@ header {
   font-size: 30px;
 }
 
-.see-the-whole-program p a {
-  text-decoration: underline;
-  color: #e9e9ea;
-  text-transform: uppercase;
-}
-
 /* \\\\\\\\Featured Section//////// */
 
 #featured-speakers {
@@ -231,9 +232,9 @@ header {
   left: 45%;
 }
 
-.hr-line {
+/* .hr-line {
   margin-top: -0.25rem;
-}
+} */
 
 .fs-content {
   display: flex;
@@ -260,6 +261,7 @@ header {
 .speaker:hover,
 .speaker:active {
   padding: 0.8rem;
+
   /* border: 0.25rem solid #EDEDED; */
 }
 
@@ -290,7 +292,6 @@ header {
 
 .speaker-content .speaker-hr {
   color: #adadad;
-  align-self: left;
   border-style: solid;
   border-width: 2px;
   width: 10%;
@@ -325,7 +326,6 @@ header {
   flex-direction: row;
   justify-content: space-around;
   gap: 2rem;
-  /* margin: 0.5rem 15rem 0.3rem 15rem; */
   margin-left: 20rem;
   margin-right: 20rem;
 }
@@ -389,7 +389,6 @@ footer {
   .navbar .nav-button {
     display: none;
   }
-  /* \\\\Side Nav Styles///// */
 
   /* \\\\\Header contents//// */
   .header-content-container {
@@ -404,14 +403,8 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     padding-top: 30%;
-  }
-
-  .header-content {
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
     margin-left: 3rem;
-    top: 0;
   }
 
   .content-title {
@@ -429,6 +422,7 @@ footer {
     font-size: 45px;
     text-align: center;
   }
+
   .none {
     display: none;
   }
@@ -498,6 +492,7 @@ footer {
     justify-content: center;
     margin-left: -15%;
   }
+
   .featured-speakers {
     display: flex;
     flex-direction: column;
@@ -508,6 +503,7 @@ footer {
     margin-left: -1.2rem;
     height: 18rem;
   }
+
   .speaker {
     display: flex;
     width: 20rem;
@@ -549,14 +545,10 @@ footer {
   }
 
   .nav-container {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     align-items: center;
+    position: relative;
     height: 62px;
-  }
-
-  .navbar .nav-items {
-    display: flex;
   }
 
   .navbar .nav-container li {
@@ -576,12 +568,6 @@ footer {
     color: #ec5242;
   }
 
-  .nav-container {
-    display: block;
-    position: relative;
-    height: 60px;
-  }
-
   .nav-container .checkbox {
     position: absolute;
     display: block;
@@ -595,7 +581,6 @@ footer {
   }
 
   .nav-container .hamburger-lines {
-    display: block;
     height: 26px;
     width: 32px;
     position: absolute;
