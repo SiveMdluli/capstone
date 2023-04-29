@@ -761,13 +761,10 @@ footer {
   flex-direction: column;
 }
 
-.atl-container .hr-line {
-  color: #ec5242;
-  align-self: center;
-  border-style: solid;
-  border-width: 2px;
-  width: 2%;
-}
+  .container {
+    width: 100%;
+    margin: auto;
+  }
 
 .atl-container .atl-header {
   font-weight: 400;
@@ -860,21 +857,13 @@ footer {
   margin-left: 1rem;
 }
 
-.eritrea p {
-  color: #fff;
-  font-weight: bold;
-}
-
-/* \\\\\\\\Footer Section//////// */
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #272a31;
-  color: #fff;
-  height: 18rem;
-  overflow-y: hidden;
-}
+  .navbar .nav-items li {
+    display: flex;
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    margin-left: 3.8rem;
+    font-weight: 500;
+  }
 
 .footer-container {
   display: flex;
