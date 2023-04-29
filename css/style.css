@@ -595,12 +595,14 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url(../img/bg/crosses-bg.png);
-    background-color: #272a31;
+    background-color: #292c31;
     mix-blend-mode: multiply;
     height: auto;
     color: #fff;
+    padding-bottom: 70px;
   }
-  
+
+
   .main-program .main-program-title {
     font-size: 30px;
     position: relative;
@@ -619,19 +621,28 @@ body {
   }
   
   .programs-card-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
-    gap: 0.5rem;
+    margin: 50px 200px;
+    background-color: #272a31;
+    opacity: 0.7;
+    background-image: url(../img/bg/crosses-bg.png);
+    mix-blend-mode: multiply;
+    gap: 2rem;
+    height: 50%;
+    padding-bottom: 1rem;
   }
   
   .program {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
+    background-color: rgba(253, 246, 246, 0.1) !important;
+    width: 12rem;
+    color: #fff !important;
+    height: 25rem;
   }
   
   .program .program-title {
@@ -659,6 +670,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 55rem;
   }
   
   .fs-header {
@@ -668,21 +682,18 @@ body {
     align-items: center;
     position: absolute;
     top: 0;
-    left: 45%;
+    left: 65%;
   }
   
   .fs-content {
-    display: grid;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 1rem;
-    width: 35%;
-    margin: 1.4rem 7rem 0 7rem;
     gap: 1rem;
-  }
-  
-  .speaker-content {
-    float: left;
+    margin-top: 40px;
+    width: 42rem;
   }
   
   .speaker {
@@ -747,20 +758,22 @@ body {
   .partners-header .partner {
     color: #d3d3d3;
     font-weight: 400;
+    margin-left: 43%;
   }
   
   .partners-header .hr-line {
-    margin-left: 25%;
-    width: 38%;
+    margin-left: 45%;
+    width: 2%;
   }
   
   .partners .partner-imgs {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 1rem;
   }
   
   .partner-imgs .partner-img {

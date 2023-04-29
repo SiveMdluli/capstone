@@ -656,8 +656,8 @@ footer {
 .about-header-content {
   background-image: url(../img/bg/desktop-bg.png);
   background-size: cover;
-  padding: 39rem 0 0;
-  margin: 0 0 0 -6rem;
+  padding: 3rem 0 0;
+  margin: 0 0 0 -1rem;
   height: 100%;
 }
 
@@ -685,6 +685,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: -25rem;
 }
 
 .about-content h1 {
@@ -713,7 +714,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0 0 7.5rem;
+  margin: 15rem 0 0 6rem;
   background-color: #fff;
   width: 90%;
   padding: 2rem;
@@ -725,6 +726,7 @@ footer {
   text-align: center;
   line-height: 30px;
   flex-wrap: wrap;
+  width: 55%;
 }
 
 .about-header-content h6 {
@@ -869,9 +871,10 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  margin-left: 6rem;
+  background-color: #272a31;
+  height: 20rem;
   gap: 3rem;
+  color: #fff;
 }
 
 .footer-container img {
@@ -887,9 +890,15 @@ footer {
   margin-top: -1rem;
   margin-right: 5rem;
 }
+ .footer-content {
+  align-items: flex-start;
+  text-align: left;
+}
 
 .footer-content .f-c-h {
   font-weight: 600;
+  color: #fff;
+  width: 100%;  
 }
 
 .none {
