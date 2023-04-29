@@ -148,7 +148,7 @@ If you like this project give this repository a 5 star rating.
 I would like to thank...
 - Microverse Review Team
 - My Coding Partner
-- I, Sive and my Family
+- [Cindy Shin in Behance](https://www.behance.net/adagio07), the origional designer of this template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

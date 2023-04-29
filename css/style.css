@@ -34,7 +34,7 @@ header {
 }
 
 .navbar img {
-  margin-left: 15rem;
+  margin-left: -8rem;
 }
 
 .navbar .nav-items {
@@ -232,10 +232,6 @@ header {
   left: 45%;
 }
 
-/* .hr-line {
-  margin-top: -0.25rem;
-} */
-
 .fs-content {
   display: flex;
   justify-content: center;
@@ -261,8 +257,6 @@ header {
 .speaker:hover,
 .speaker:active {
   padding: 0.8rem;
-
-  /* border: 0.25rem solid #EDEDED; */
 }
 
 .speaker .speaker-content {
@@ -347,12 +341,12 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 3rem;
-  width: 70%;
 }
 
 .footer-container img {
+  margin-left: 12rem;
   width: 17%;
 }
 
@@ -364,6 +358,10 @@ footer {
 
 .footer-content .f-c-h {
   font-weight: 600;
+}
+
+.footer-content p {
+  margin-right: 3rem;
 }
 
 .none {
@@ -408,7 +406,7 @@ footer {
   }
 
   .content-title {
-    margin-top: -10rem;
+    margin-top: -13rem;
     align-self: center;
     margin-left: 2.9rem;
     font-size: 16px;
@@ -419,7 +417,7 @@ footer {
   .header-content h1 {
     padding-left: 5.3rem;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
   }
 
@@ -428,9 +426,16 @@ footer {
   }
 
   .header-content-body {
-    margin-left: 2rem;
+    display: flex;
+    margin-left: 3.2rem;
     text-align: center;
-    width: 73%;
+    width: 85%;
+    padding-bottom: 1rem;
+    font-size: 14px;
+  }
+
+  .header-content-body p {
+    font-size: 13px;
   }
 
   .summit-date,
@@ -507,7 +512,21 @@ footer {
   .speaker {
     display: flex;
     width: 20rem;
-    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+
+  .speaker:hover,
+  .speaker:active {
+    padding: 0;
+  }
+
+  .speaker-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    height: 30rem;
+    padding-bottom: 9rem;
   }
 
   /* \\\\Partners section//// */
@@ -525,8 +544,7 @@ footer {
   }
 
   .container {
-    max-width: 1050px;
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 
@@ -540,8 +558,11 @@ footer {
   }
 
   .navbar {
+    background-image: url(../img/bg/mobile-bg.png);
+    background-size: cover;
+    background-color: transparent;
+    box-shadow: none;
     width: 100%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
   }
 
   .nav-container {
@@ -597,7 +618,7 @@ footer {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #ec5242;
+    background: #333333;
   }
 
   .nav-container .hamburger-lines .line1 {

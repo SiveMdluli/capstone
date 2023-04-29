@@ -28,7 +28,7 @@ body {
 }
 
 .navbar img {
-  margin-left: 15rem;
+  margin-left: -8rem;
 }
 
 .navbar .nav-items {
@@ -314,20 +314,23 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  margin-left: 6rem;
   gap: 3rem;
-  width: 70%;
 }
 
 .footer-container img {
   width: 27rem;
   height: 28rem;
+  margin-top: -5rem;
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: -1rem;
+  margin-right: 5rem;
 }
 
 .footer-content .f-c-h {
@@ -379,9 +382,11 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin-left: 10rem;
+    margin-top: -5rem;
   }
 
   .about-content h1 {
+    font-size: 39px;
     margin-left: -3rem;
     text-align: center;
   }
@@ -405,11 +410,22 @@ footer {
     width: 90%;
   }
 
+  .header-content p {
+    font-size: 14px;
+    text-align: center;
+    padding-right: 1.2rem;
+  }
+
   .outer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-    margin-left: 7rem;
+    margin-left: 6rem;
+  }
+
+  .header-email {
+      margin-left: 4.5rem;
   }
 
   .sp-container {
@@ -518,6 +534,7 @@ footer {
 
   .footer-logo {
     margin-top: -4.5rem;
+    margin-left: 8rem;
   }
 
   .footer-content {
@@ -525,7 +542,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    gap: 0;
   }
 
   .footer-container img {
@@ -548,9 +564,16 @@ footer {
     display: block;
   }
 
+  .side-home-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    float: right;
+    margin-top: -42rem;
+    font-size: 1.7rem;
+  }
   .container {
-    max-width: 1050px;
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 
@@ -564,8 +587,11 @@ footer {
   }
 
   .navbar {
+    background-image: url(../img/bg/mobile-bg.png);
+    background-size: cover;
+    background-color: transparent;
+    box-shadow: none;
     width: 100%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
   }
 
   .nav-container {
@@ -622,7 +648,7 @@ footer {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #ec5242;
+    background: #333333;
   }
 
   .nav-container .hamburger-lines .line1 {
@@ -643,6 +669,7 @@ footer {
     display: flex;
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
+    margin-left: 3.8rem;
     font-weight: 500;
   }
 
