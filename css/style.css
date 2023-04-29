@@ -419,6 +419,12 @@ body {
 /* From 0 to 768 */
 @media only screen and (min-width: 767px) {
 
+.navbar img,
+.navbar .nav-button,
+.page-nav {
+  display: block;
+}
+
   header {
     display: flex;
     flex-direction: column;
@@ -438,42 +444,47 @@ body {
     gap: 10px;
     padding: 10px 170px 10px 0;
   }
-  
+  .checkbox,
+  .hamburger-lines {
+    display: none !important;
+  }
+
   .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
     box-shadow: 5px 10px 8px #d4d4d4;
+    background-image: none;
   }
   
   .navbar img {
-    margin-left: -8rem;
+    margin-left: 1rem;
+    margin-top: -0.8rem;
   }
   
   .navbar .nav-items {
     display: flex;
-    gap: 42px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
     list-style: none;
-    margin: 0;
     padding: 0;
+    height: 0;
+    width: 0;
+    gap: 3rem;
+    background-color: #fff;
+    opacity: 1;
+    transform: none;
+    margin-top: 0.9rem;
   }
-  
-  .page-logo {
-    margin-left: -40%;
-  }
-  
+
   .navbar ul a {
     text-decoration: none;
     color: #5c5a5a;
     margin: 0;
     font-size: 16px;
-  }
-  
-  .see-the-whole-program p a {
-    text-decoration: underline;
-    color: #e9e9ea;
-    text-transform: uppercase;
   }
   
   .navbar ul li a:hover {
@@ -489,7 +500,7 @@ body {
     background-color: #fff;
     font-size: 16px;
     padding: 12px;
-    margin-right: 12rem;
+    margin: -0.5rem 5rem 0 1rem;
   }
   
   .navbar .nav-button:hover {
@@ -504,8 +515,8 @@ body {
     justify-content: center;
     background-image: url(../img/bg/desktop-bg.png);
     background-size: cover;
-    padding: 39rem 0 0;
-    margin: 0 0 0 -6rem;
+    padding: 35rem 0 0;
+    margin: 0 0 0 -1rem;
     height: 100%;
   }
   
@@ -515,11 +526,14 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin: -33.5rem 0 0 19rem;
+    margin: -53rem 0 0 19rem;
   }
   
   .header-content .content-title {
+    display: flex;
+    justify-content: flex-start;
     color: #ec5242;
+    margin-left: -25rem;
     font-size: 40px;
     font-weight: 400;
   }
@@ -534,21 +548,28 @@ body {
     font-size: 60px;
     background-clip: border-box;
     -webkit-background-clip: text;
+    margin-left: 5rem;
+    align-items: start;
   }
   
   .header-content .header-content-body {
     background-color: #f7f7f7;
     border: 0.28rem solid #fff;
     display: flex;
+    text-align: center;
+    align-items: center;
     height: auto;
     padding: 5px;
+    margin-left: 7rem;
+    width: 50%;
   }
   
   .header-content-body p {
     display: flex;
     width: 600px;
     font-size: 15px;
-    height: 3.5rem;
+    line-height: 2rem;
+    padding-top: 0.6rem;
   }
   
   .header-content .summit-date {
@@ -556,6 +577,7 @@ body {
     font-weight: 800;
     font-size: 30px;
     padding-top: 1.5rem;
+    padding-left: 13rem;
   }
   
   .header-content .summit-venue {
@@ -563,6 +585,7 @@ body {
     font-weight: 150;
     font-size: 20px;
     padding-top: 0.3rem;
+    margin-left: -2rem;
   }
   
   /* Main Program Styles */
@@ -571,8 +594,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #272a31;
     background-image: url(../img/bg/crosses-bg.png);
+    background-color: #272a31;
     mix-blend-mode: multiply;
     height: auto;
     color: #fff;
@@ -596,9 +619,8 @@ body {
   }
   
   .programs-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     flex-direction: row;
     gap: 0.5rem;
   }
@@ -609,8 +631,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 13rem;
-    background-color: rgba(255, 255, 255, 0.1);
     padding: 1rem;
   }
   
@@ -626,6 +646,12 @@ body {
   
   .see-the-whole-program p {
     font-size: 30px;
+  }
+
+  .see-the-whole-program p a {
+    text-decoration: underline;
+    color: #e9e9ea;
+    text-transform: uppercase;
   }
   
   /* \\\\\\\\Featured Section//////// */
@@ -646,9 +672,9 @@ body {
   }
   
   .fs-content {
-    display: flex;
+    display: grid;
     justify-content: center;
-    align-items: baseline;
+    flex-direction: column;
     padding-top: 1rem;
     width: 35%;
     margin: 1.4rem 7rem 0 7rem;

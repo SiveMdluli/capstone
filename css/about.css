@@ -494,6 +494,23 @@ footer {
 /* Mobile Version */
 @media only screen and (min-width: 767px) {
   
+  .top-menu {
+    display: block;
+  }
+  
+  .nonee {
+    display: none;
+  }
+  
+  .none {
+    display: block;
+  }
+  
+  .navbar img,
+  .navbar .nav-button,
+  .page-nav {
+    display: none;
+  }
 .top-menu {
   display: flex;
   justify-content: flex-end;
@@ -508,32 +525,93 @@ footer {
   padding: 10px 170px 10px 0;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  box-shadow: 5px 10px 8px #d4d4d4;
+.navbar img,
+.navbar .nav-button,
+.page-nav {
+  display: block;
 }
 
-.navbar img {
-  margin-left: -8rem;
-}
-
-.navbar .nav-items {
-  display: flex;
-  gap: 42px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar ul a {
-  text-decoration: none;
-  color: #5c5a5a;
-  margin: 0;
-  font-size: 16px;
-}
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .top-menu {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #272a31;
+  }
+  
+  .top-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 10px;
+    padding: 10px 170px 10px 0;
+  }
+  .checkbox,
+  .hamburger-lines {
+    display: none !important;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    background-image: none;
+  }
+  
+  .navbar img {
+    margin-left: 1rem;
+    margin-top: -0.8rem;
+  }
+  
+  .navbar .nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    height: 0;
+    width: 0;
+    background-color: #fff;
+    opacity: 1;
+    transform: none;
+    margin-top: 0.9rem;
+  }
+  
+  .navbar ul a {
+    text-decoration: none;
+    color: #5c5a5a;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ec5242;
+    font-size: 18px;
+    animation: 0.5s ease;
+  }
+  
+  .navbar .nav-button {
+    border-color: #ec5242;
+    border-width: 7px;
+    color: #ec5242;
+    background-color: #fff;
+    font-size: 16px;
+    padding: 12px;
+    margin: -0.5rem 5rem 0 1rem;
+  }
+  
+  .navbar .nav-button:hover {
+    color: #fff;
+    background-color: #ec5242;
+    font-size: 18px;
+  }
 
 .page-nav ul {
   display: flex;
@@ -836,5 +914,6 @@ footer {
 .non {
   display: none;
 }
+}
 
- }
+
