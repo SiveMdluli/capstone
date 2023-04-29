@@ -425,7 +425,7 @@ footer {
   }
 
   .header-email {
-      margin-left: 4.5rem;
+    margin-left: 4.5rem;
   }
 
   .sp-container {
@@ -572,6 +572,7 @@ footer {
     margin-top: -42rem;
     font-size: 1.7rem;
   }
+
   .container {
     width: 100%;
     margin: auto;
@@ -648,7 +649,7 @@ footer {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #333333;
+    background: #333;
   }
 
   .nav-container .hamburger-lines .line1 {
