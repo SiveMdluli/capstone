@@ -575,7 +575,6 @@ footer {
 
   .container {
     width: 100%;
-    margin: auto;
   }
 
   .cs-africa {
@@ -671,7 +670,6 @@ footer {
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
     margin-left: 3.8rem;
-    font-weight: 500;
   }
 
   .nav-container input[type="checkbox"]:checked ~ .nav-items {
